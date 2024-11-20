@@ -1,0 +1,168 @@
+lua ./cli.lua --preset Strong --LuaU ./script.lua
+lua script.obfuscated.lua
+
+
+
+
+
+
+Make this a changelog/update log for the users of my obfuscator. Do not include anything that can lead to an attacker knowing how it works
+
+...
+
+
+
+
+
+#selection make the assisting functions stronger and more dynamic and random
+
+#selection 
+
+The selected code has been copied and pasted from an open source github repository, with the same exact code.
+
+I would like to add more complexity to the following transformation ( compiler ).
+
+Do NOT add other obfuscation techniques ( like variable renaming ). Keep it to the topic please
+
+Make a list of ideas and make sure we dont already have it in our code.
+
+Update this function to use some of the things you suggested without inserting useless code and optimize it. Everything you say should be implemented by you, including the updated selection
+
+For example, if you are suggesting adding new funtcions, add them. 
+
+this implementation should not be example based nor psuedo based. It should be the real deal strongest alternitive. DO not say nor give me a "simple example" or "add more as needed" comments/code
+
+
+
+
+
+How can we make this more dynamic and stronger while being very optimized and not adding useless code?
+
+How can we optimize this code to get the best performance possible while keeping it strong and dynamic?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Help me optimize and strengthen control flow altering so it wont impact preformance but actually can help with altering cflow
+
+If something isnt used, make it be used. But if it's useless and provides 0 security other than junk, remove it
+
+Remember, this is cflow altering, it must be confusing but we cant have USELESS JUNK THAT DOES NOTHING
+
+leave it if it has potential, then update it to be used or be used better
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I wanna complicate my control flow altering so its more confusing, unpredictable, and annoying
+
+it should be control flow flattening, but not simple dead code that can be removed by something so simple like darklua
+
+
+give me the complete function with updates and full implementation
+
+DO NOT ADD DEAD CODE THAT CAN JUST SIMPLY BE REMOVED!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#selection add more control flow to the selected code. Like add a LOT more without adding new functions, just make the existing ones better and add more to make it more dynamic
+
+Increase the complexity of conditions in if statements.
+
+
+Add more nested loops and conditions to increase the depth of control flow.
+
+
+
+
+
+
+
+
+
+
+
+#selection 
+
+implement INSTRUCTION SUBSTIUTION based off the probability
+
+INSTRUCTION_SUBSTITUTION_PROBABILITY
+
+give me the createFreeUpvalueFunc function with the new function
+
+
+
+
+
+
+#selection  other than control flow obfuscation, what else can we add to the createBlock function in the compiler to keep this dynamic and as strong as possible
+
+make it make sense, like fits into the function. Dont suggest basic obfuscation techniques like variable renaming, suggest things that actually make sense
+
+only suggest things which are easy to implement and dont require a whole set of functions, but can really change up runtime. Do not duplicate existing functions
+
+
+
+
+#selection implement this to the selection, then give me the createBlock function with the changes and the origional code, maintaining the respected function with the implemented feature(s)
+
+Dynamic Dispatch: Instead of directly calling functions or methods, use a table of function pointers. At runtime, randomly shuffle this table or select a function based on some runtime data, making static analysis harder.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7/2/24 changelog:
+
+Dynamic Dispatch: Instead of directly calling functions or methods, use a table of function pointers. At runtime, randomly shuffle this table or select a function based on some runtime data, making static analysis harder.
+
+String Encryption: Encrypt literal strings used within the block and decrypt them at runtime. This can be as simple as XORing the strings with a key generated or modified at runtime.
+
+Instruction Jumbling: Within the block, intersperse the actual instructions with randomly generated no-op (no operation) instructions or benign instructions that don't affect the program's outcome. This increases the difficulty of understanding the program flow.

@@ -1,0 +1,4 @@
+the prompt: make me a clean and fun lua adventure game. it should have instructions, colors, and more!
+
+
+next prompt: how can we make this more animative with emojis, icons, ascii, etc
